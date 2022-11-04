@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.Converter {
+  position: absolute;
+  bottom: 30rem;
+  background-color: lightblue;
+  width: 40rem;
+  height: 11rem;
+  left: 30rem;
+}
+.Arrow-img {
+  height: 25px;
+}
+.Convert-btn {
+  position: relative;
+  right: 27px;
+  margin-top: 10px;
+}
+.Reset-btn {
+  position: relative;
+  left: 27px;
+  margin-top: 10px;
+}
+.Degree {
+  margin-left: 2px;
+}
+.output {
+  background-color: blueviolet;
+}

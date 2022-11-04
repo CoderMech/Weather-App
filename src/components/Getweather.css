@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.Dexter-img {
+  position: relative;
+  bottom: 35rem;
+  right: 22rem;
+  height: 22rem;
+  padding: 10px 0px;
+  background-color: lightskyblue;
+  opacity: 0.85;
+}
+.City-text {
+  position: relative;
+  bottom: 58.5rem;
+  left: 55rem;
+  padding: 10px 0px;
+  background-color: lightskyblue;
+  width: 30%;
+  height: 22rem;
+  opacity: 0.85;
+}
+
+.Input {
+  padding: 5px 5px;
+  margin: 0px 10px;
+  width: 70%;
+}
+
+.Api-data {
+  font-style: oblique;
+  font-family: cursive;
+  font-size: larger;
+}

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.Background-img {
+  height: 705px;
+  width: 1570px;
+}
+.Navbar ul {
+  background-color: lightskyblue;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  align-items: center;
+}
+.Nav li {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+.Navbar-right {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.Navbar-left {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+}
+.Logo {
+  position: relative;
+  height: 3rem;
+  right: 25rem;
+}
+:link {
+  text-decoration: none;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.Navbar ul li a {
+  padding: 0rem;
+}
+
+.Navbar ul li:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.Background-image {
+  position: relative;
+}
+.Background-text {
+  position: absolute;
+  top: 9rem;
+  padding: 15px 10px 0px 10px;
+  right: 20rem;
+  width: 50rem;
+  height: 27rem;
+  background-color: lightskyblue;
+  opacity: 0.85;
+}
