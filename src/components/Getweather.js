@@ -9,6 +9,7 @@ import { useState } from "react";
 export const Getweather = () => {
   const [weatherdata, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const getWeather = (e) => {
     setCity(e.target.value);
@@ -18,7 +19,6 @@ export const Getweather = () => {
       .then((response) => response.json())
       .then((data) => {
         setWeatherData(data);
-        // console.log(data);
       });
   };
 
@@ -81,11 +81,7 @@ export const Getweather = () => {
             <p>Wind Speed: {weatherdata.wind.speed} Km/h</p>
           </div>
         )}
-        {weatherdata.cod == "404" ? (
-          <p>City Not found</p>
-        ) : (
-          <>Welcome to the app</>
-        )}
+        {weatherdata.cod == "404" ? <p>City Not found</p> : <></>}
       </div>
     </div>
   );
