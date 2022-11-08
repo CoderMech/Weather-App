@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .Converter {
-  position: absolute;
+  position: relative;
   bottom: 30rem;
   background-color: lightblue;
   width: 40rem;
